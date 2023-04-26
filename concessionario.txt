@@ -1,0 +1,10 @@
+ID - MEDIUMINT - Primary Key, UNIQUE, AUTO_INCREMENT, NOT_NULL
+name - VARCHAR(255) - NOT_NULL
+manufacturer - VARCHAR(255) - NOT_NULL
+VIN(vehicle identification number) - VARCHAR (17) - UNIQUE, NOT_NULL
+type - VARCHAR(100) - NOT_NULL
+fuel used - VARCHAR (10) - NOT_FULL
+plate - VARCHAR(14) - UNIQUE, NOT_NULL
+kilometers - INT - NOT_NULL
+dealer acquisition date - DATE - NOT_NULL
+price - FLOAT(7,2) - NOT_NULL
